@@ -15,7 +15,7 @@ if(args[2] && args[3]){
 
 //*****************************************************
 // #2 Check if first arguement has conf file
-// The passed var args2 is args[2] in line 2 whichi is filename
+// The passed var args2 is args[2] in line 2 which is filename
 //*****************************************************
 function checkConfFile() {
 	flname = args[2];
@@ -31,7 +31,7 @@ function checkConfFile() {
 
 //*****************************************************
 // #3 Check if filename exist
-// The passed var args2 is args[2] in line 2 whichi is filename
+// The passed var args2 is args[2] in line 2 which is filename
 //*****************************************************
 function checkFilenameExist() {
 	fs.stat(args[2], function (err){
@@ -47,7 +47,7 @@ function checkFilenameExist() {
 
 //*****************************************************
 // #4 Create File
-// The passed var args2 is args[2] in line 2 whichi is filename
+// The passed var args2 is args[2] in line 2 which is filename
 //*****************************************************
 function createFile() {
 	var content = "content\n" + 
